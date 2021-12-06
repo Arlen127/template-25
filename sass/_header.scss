@@ -1,0 +1,98 @@
+.header {
+  background: url(../img/photograf.jpg) center center / cover;
+  min-height: 70vh;
+
+}
+.hero {
+  padding-top: 125px;
+  color: white;
+}
+.hero__title {
+  font-size: 70px;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  max-width: 350px;
+  margin: 0;
+  @media screen and(max-width:768px) {
+    font-size: 50px;
+  }
+  @media screen and(max-width:400px) {
+    font-size: 20px;
+  }
+}
+.hero__text {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  margin-top: 0;
+  padding-top: 0;
+}
+.main {
+  background-color: #252222;
+  color: #ffffff;
+  @media screen and (max-width: 330px){
+    padding-bottom: 20px;
+  }
+}
+.main__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 330px){
+      flex-direction: column;
+  }
+}
+.logo__title {
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+}
+.nav {
+  @media screen and (max-width: 625px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 38, 46, 0.774);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // transform: translateY(100%);
+    -moz-transform: scale(0) rotate(0);
+    -webkit-transform: scale(0) rotate(0);
+    -o-transform: scale(0) rotate(0);
+    -ms-transform: scale(0) rotate(0);
+    transform: scale(0) rotate(0);
+    transition: 0.4s linear;
+  }
+}
+.nav__link {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  padding-left: 25px;
+  text-decoration: none;
+  @media screen and (max-width: 625px) {
+    font-size: 25px;
+    margin-left: 0;
+    margin-bottom: 20.8px;
+    color: white;
+    padding-right: 30px;
+  }
+}
+.nav.is-active {
+  @media screen and (max-width: 665px) {
+    // transform: translateY(0);
+    -moz-transform: scale(2) rotate(360deg);
+    -webkit-transform: scale(2) rotate(360deg);
+    -o-transform: scale(2) rotate(360deg);
+    -ms-transform: scale(2) rotate(360deg);
+    transform: scale(2) rotate(360deg);
+  }
+}
+.nav--color {
+  text-decoration: underline 2px;
+  color: #65ba99;
+}
