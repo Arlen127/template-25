@@ -1,0 +1,64 @@
+.contact__container{
+  max-width: 937px;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and(max-width:992px) {
+    padding: 0 15px;
+  }
+}
+.contact {
+  background: url(../img/city.jpg) center center / cover;
+  min-height: 80vh;
+  padding-top: 10px;
+}
+.contact__title {
+  font-size: 48px;
+  color: #252222;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.contact__number {
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 5px;
+  @media screen and(max-width:620px){
+    font-size: 30px;
+  
+  }
+}
+.contact__button {
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  border: 5px solid white;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 100px;
+  @media screen and(max-width:620px){
+    font-size: 30px;
+    padding: 10px 30px;
+    @media screen and(max-width:370px){
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  }
+}
+.contact__text {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+.contact__about {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}

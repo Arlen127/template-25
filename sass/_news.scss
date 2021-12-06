@@ -9,6 +9,7 @@
   color: #252222;
   font-family: "Bebas Neue", cursive;
   padding-top: 20px;
+  font-weight: normal;
 }
 .flex__container {
   display: flex;
@@ -158,13 +159,14 @@
   padding-top: 50px;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .companys__images {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
   text-align: center;
   flex-flow: wrap;
   @media screen and (max-width: 1100px) {
@@ -172,5 +174,5 @@
 }
 .companys__img {
   max-width: 100%;
-  margin-right: 50px;
+  
 }

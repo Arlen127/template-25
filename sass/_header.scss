@@ -1,6 +1,7 @@
 .header {
   background: url(../img/photograf.jpg) center center / cover;
   min-height: 70vh;
+  padding: 1rem 0;
 
 }
 .hero {
@@ -17,7 +18,7 @@
     font-size: 50px;
   }
   @media screen and(max-width:400px) {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .hero__text {
@@ -26,6 +27,9 @@
   font-family: "Bebas Neue";
   margin-top: 0;
   padding-top: 0;
+  @media screen and(max-width:400px){
+    font-size: 25px;
+  }
 }
 .main {
   background-color: #252222;
