@@ -697,6 +697,7 @@ body {
 @media screen and (max-width: 620px) {
   .contact__number {
     font-size: 30px;
+    color: #ffffff;
   }
 }
 
@@ -709,6 +710,7 @@ body {
   background-color: transparent;
   text-align: center;
   padding: 10px 100px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 620px) {
   .contact__button {
