@@ -34,6 +34,9 @@
 .main {
   background-color: #252222;
   color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   @media screen and (max-width: 330px){
     padding-bottom: 20px;
   }
@@ -52,6 +55,7 @@
   font-family: "Bebas Neue";
 }
 .nav {
+  
   @media screen and (max-width: 625px) {
     position: fixed;
     top: 0;
